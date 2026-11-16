@@ -1,0 +1,84 @@
+{
+ "sheets": [
+  "eval/GRADING.md",
+  "eval/GRADING_extra.md"
+ ],
+ "runs_file": "results/answers_dieu_hybrid_runs3.json",
+ "n_questions": 37,
+ "n_answerable": 27,
+ "n_no_answer": 10,
+ "excluded_rejected": [],
+ "ungraded": [],
+ "missing_from_sheets": [],
+ "missing_from_runs": [],
+ "tick_vs_refusal_mismatch": [],
+ "hand_graded_run1": {
+  "answerable": {
+   "n_graded": 27,
+   "Đúng": 24,
+   "Đúng một phần": 2,
+   "Sai": 0,
+   "Bịa": 0,
+   "Từ chối sai": 1
+  },
+  "no_answer": {
+   "n_graded": 10,
+   "Từ chối đúng": 10,
+   "Bịa": 0,
+   "ids": [
+    "q28",
+    "q29",
+    "q30",
+    "x01",
+    "x02",
+    "x03",
+    "x04",
+    "x05",
+    "x06",
+    "x07"
+   ]
+  },
+  "wrong_or_fabricated_among_answered": {
+   "n": 0,
+   "of": 26,
+   "rate": 0.0,
+   "ids": []
+  }
+ },
+ "automatic": {
+  "n_runs_per_question": [
+   3
+  ],
+  "correct_refusal": {
+   "n": 30,
+   "of": 30,
+   "rate": 1.0
+  },
+  "false_refusal": {
+   "n": 2,
+   "of": 81,
+   "rate": 0.0247
+  },
+  "inconsistent": [
+   {
+    "id": "q11",
+    "n_refused": 2,
+    "n_runs": 3
+   }
+  ],
+  "runs_with_invalid_citation": {
+   "n": 0,
+   "of": 111,
+   "rate": 0.0
+  },
+  "cited_evidence": {
+   "n": 79,
+   "of": 79,
+   "rate": 1.0
+  },
+  "models_used": [
+   "gemini-3.5-flash-lite"
+  ]
+ },
+ "timestamp": "2026-11-16T22:06:06"
+}

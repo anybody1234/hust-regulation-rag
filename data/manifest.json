@@ -1,0 +1,48 @@
+[
+  {
+    "doc_id": "qcdt2025",
+    "title": "Quy chế đào tạo",
+    "so_hieu": "5445/QĐ-ĐHBK",
+    "ngay_ky": "2025-05-28",
+    "ap_dung": "Mọi khoá, từ học kỳ 1 năm học 2025-2026",
+    "url": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/QCDT_2025_5445_QD-DHBK.pdf",
+    "sha256": "5aa6141fe77d928d7b8828ee18111d5cfeab9d5db0fa0ebefa23847a62beb77b",
+    "clean": {
+      "skip_pages": [2, 3, 4],
+      "stamp_tails": [["5445", "28", "5"]],
+      "cut_from": ["^[1-9] (Quy chế|Danh mục) "],
+      "replace": {"ban hành 1 2 3.": "ban hành.", "quản lý 4.": "quản lý."}
+    }
+  },
+  {
+    "doc_id": "ngoaingu_k71",
+    "title": "Quy định ngoại ngữ K71",
+    "so_hieu": "10828/QĐ-ĐHBK",
+    "ngay_ky": "2026-09-07",
+    "ap_dung": "Khoá K71; bảng quy đổi chứng chỉ áp dụng cho mọi khoá",
+    "url": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hoctap/00_%20Quy%20%C4%91%E1%BB%8Bnh%20ngo%E1%BA%A1i%20ng%E1%BB%AF%20K71_final_%C4%91%C3%A3%20k%C3%BD.pdf",
+    "sha256": "168b5c897fe8157d711c53a37d70ee95cd1a72ed2f1c5303548cf7df8163391a",
+    "clean": {
+      "skip_pages": [],
+      "stamp_tails": [["07", "9", "2026", "10828"], ["07", "9", "10828"]],
+      "cut_from": [],
+      "replace": {}
+    }
+  },
+  {
+    "doc_id": "hocphi_2026_27",
+    "title": "Quy định học phí năm học 2026-2027",
+    "so_hieu": "12006/QĐ-ĐHBK",
+    "ngay_ky": "2026-10-05",
+    "ap_dung": "Năm học 2026-2027",
+    "url": "https://ctt.hust.edu.vn/Upload/Nguy%E1%BB%85n%20Qu%E1%BB%91c%20%C4%90%E1%BA%A1t/files/DTDH_QDQC/Hocphi/2026-2027/12006_Q%C4%90-%C4%90HBK.pdf",
+    "sha256": "3a0d3a2a7fa60720a83764b77d9fb414d94690450c095cfa5c190755ed425009",
+    "clean": {
+      "skip_pages": [],
+      "stamp_tails": [["05", "10", "12006"]],
+      "cut_from": [],
+      "replace": {}
+    },
+    "appendix_note": {"I": "Ghi chú: các mức học phí trong Phụ lục I tính theo đơn vị nghìn đồng cho một tín chỉ học phí (TCHP), trừ khi ghi khác."}
+  }
+]

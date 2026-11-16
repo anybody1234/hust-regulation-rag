@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+data/raw/
+data/processed/
+data/index/
+.streamlit/secrets.toml
+LEARNING.md
+CLAUDE.md
+.claude/
+*.bak
+
+# Phiếu duyệt bộ câu hỏi (ghi chú làm việc, không đưa lên repo)
+eval/REVIEW.md
+eval/REVIEW_extra.md
